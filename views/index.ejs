@@ -1,9 +1,13 @@
+<HTML>
 <HEAD>
     <LINK REL="stylesheet" HREF="css/main.css" TYPE="text/css">
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/userInterface.js"></script>
     <TITLE>adik</TITLE>
 </HEAD>
 <BODY>
+
 
 <div id="title">
     <h1><pre><span>
@@ -11,18 +15,47 @@
 ИСТОЧНИКОВ
 ДЛЯ
 АНАЛИЗА
-ТЕКСТА</span></pre></h1>
+ТЕКСТА</span></pre>
+    </h1>
 </div>
 
 
 <div class="box">
 
-    <a href="1_step.html">НАЧАТЬ РАБОТУ</a>
+    <div id="bigButton">
+        <a href="#">НАЧАТЬ РАБОТУ</a>
+    </div>
+
+
+    <div id="step1" class="dialog">
+
+        <p>Выберите ресурс:</p>
+
+        <p><input type="radio" name="serviseType" value="1"> КиноПоиск</p>
+
+        <p><input type="radio" name="serviseType" value="1"> ЯндексМаркет</p>
+
+        <input name="button" type="button" ID="button" value="Далее" onclick="top.location.href='info.html'"/>
+    </div>
+
+    <div id="step2" class="dialog">
+        <p>Выберите временной промежуток:</p>
+
+        <p><input type="radio" name="serviseType" value="1"> 1 неделя</p>
+
+        <p><input type="radio" name="serviseType" value="1"> 2 недели</p>
+
+        <p><input type="radio" name="serviseType" value="1"> 1 месяц</p>
+
+        <p><input type="radio" name="serviseType" value="1"> 3 месяца</p>
+
+        <input name="button" type="button" ID="button" value="Далее" onclick="top.location.href='info.html'"/>
+    </div>
 
 
 </div>
 
-<input name="button" type="button" ID="info_button" value="О СЕРВИСЕ" onclick="top.location.href='____.html'" />
+<input name="button" type="button" ID="info_button" value="О СЕРВИСЕ" onclick="top.location.href='____.html'"/>
 
 
 <div id="data">
