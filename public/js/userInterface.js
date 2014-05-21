@@ -15,6 +15,7 @@ $(document).ready(function(){
         var dataSource=$('input[name="serviseType"]:checked').value();
         var time=$('input[name="time"]:checked').value();
         $.ajax({
+
             type: "POST",
             url: "/config",
             data: { dataSource: dataSource, time: time},
@@ -24,6 +25,5 @@ $(document).ready(function(){
 
             }
         });
-    })
-
+    });
 });
