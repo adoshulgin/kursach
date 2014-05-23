@@ -5,14 +5,14 @@ $(document).ready(function(){
         $("#step1").css("display", "block");
     });
 
-    $('#button').click(function () {
-        $("#button").css("display", "none");
+    $('#sourceButton').click(function () {
+        $("#sourceButton").css("display", "none");
         $("#step1").css("display", "none");
         $("#step2").css("display", "block");
     });
 
-    $('#1_button').click(function () {
-        $("#1_button").css("display", "none");
+    $('#timeButton').click(function () {
+        $("#timeButton").css("display", "none");
         $("#step2").css("display", "none");
         $("#step3").css("display", "block");
     });
