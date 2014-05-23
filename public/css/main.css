@@ -52,7 +52,7 @@ span {
     border-radius: 10px;
 }
 
-#time_button {
+#timeButton {
     height: 30px;
     width: 100px;
     background: #202328;
@@ -64,7 +64,7 @@ span {
     border-radius: 10px;
 
 }
-#end_button{
+#submitButton{
     height: 30px;
     width: 100px;
     background: #202328;
@@ -76,7 +76,7 @@ span {
     border-radius: 10px;
 
 }
-##sourceButton{
+#sourceButton{
     height: 30px;
     width: 100px;
     background: #202328;
