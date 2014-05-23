@@ -88,7 +88,11 @@ span {
     border-radius: 10px;
 
 }
-
+#note   {
+    border-width:thin ;
+    border-color: black;
+    float: left;
+}
 #choice_button {
     height: 30px;
     width: 100px;
