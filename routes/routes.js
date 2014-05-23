@@ -10,9 +10,10 @@ module.exports = function (app) {
     });
 
     app.post('/config', function (req, res) {
-    var source=req.body.dataSource;
-    var time=req.body.time;
-        console.log(source,time);
+    var source = req.body.dataSource;
+    var time = req.body.time;
+    var sourceUrl = req.body.url;
+        console.log(source,time, sourceUrl);
     });
 
 };
