@@ -64,6 +64,30 @@ span {
     border-radius: 10px;
 
 }
+#end_button{
+    height: 30px;
+    width: 100px;
+    background: #202328;
+    color: white;
+    text-align: center;
+    font-family: helvetica;
+    float: left;
+    clear: both;
+    border-radius: 10px;
+
+}
+#bbutton{
+    height: 30px;
+    width: 100px;
+    background: #202328;
+    color: white;
+    text-align: center;
+    font-family: helvetica;
+    float: left;
+    clear: both;
+    border-radius: 10px;
+
+}
 
 #choice_button {
     height: 30px;
