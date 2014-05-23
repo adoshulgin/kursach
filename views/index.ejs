@@ -31,49 +31,38 @@
 
         <p>Выберите ресурс:</p>
 
-        <input name="button" type="button" ID="choice_button" value="КиноПоиск"/>
+        <p><input type="radio" id="r1" name="serviseType" value="KinoPoisk"> kinopoisk.ru</p>
 
-        <input name="button" type="button" ID="choice_button" value="ЯндексМаркет"/>
+        <p><input type="radio" id="r2" name="serviseType" value="YandexMarket"> market.yandex.ru</p>
 
-        <input name="button" type="button" ID="button" value="Далее"/>
+        <input name="button" type="button" ID="sourceButton" value="Далее"/>
     </div>
-
 
 
     <div id="step2" class="dialog">
         <p>Выберите временной промежуток:</p>
 
-        <input name="button" type="button" ID="choice_button" value="1 неделя"/>
+        <p><input type="radio" name="timeSelector" id="timeSelector" value="oneWeek"> 1 неделя</p>
 
-        <input name="button" type="button" ID="choice_button" value="2 недели"/>
+        <p><input type="radio" name="timeSelector" id="timeSelector" value="twoWeeks"> 2 недели</p>
 
-        <input name="button" type="button" ID="choice_button" value="1 месяц"/>
+        <p><input type="radio" name="timeSelector" id="timeSelector" value="oneMonth"> 1 месяц</p>
 
-        <input name="button" type="button" ID="choice_button" value="3 месяца"/>
+        <p><input type="radio" name="timeSelector" id="timeSelector" value="threeMonths"> 3 месяца</p>
 
-        <input name="button" type="button" ID="bbutton" value="Далее" onclick="top.location.href='#'"/>
+        <input name="button" type="button" ID="timeButton" value="Далее" />
     </div>
-
-
 
     <div id="step3" class="dialog">
         <p>Введите ссылку на статью</p>
-        <input name="link" type="text" size="30" maxlength="256"  /> <br />
-        <input name="button" type="button" ID="end_button" value="Далее" onclick="top.location.href='#'"/>
+        <input name="link" type="text" size="30" maxlength="256" id="ulr"/> <br />
+        <input name="button" type="button" ID="submitButton" value="Начать" />
        </div>
-<div id="oops">
-
-</div>
 
 </div>
 
 <input name="button" type="button" ID="info_button" value="О СЕРВИСЕ" onclick="top.location.href='____.html'"/>
 
-
-<div id="data">
-    <script src="data.js">
-    </script>
-</div>
 
 </BODY>
 
