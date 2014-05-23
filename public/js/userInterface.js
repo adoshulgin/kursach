@@ -11,6 +11,12 @@ $(document).ready(function(){
         $("#step2").css("display", "block");
     });
 
+    $('#1_button').click(function () {
+        $("#1_button").css("display", "none");
+        $("#step2").css("display", "none");
+        $("#step3").css("display", "block");
+    });
+
     $("#end_button").click(function(){
         var dataSource=$('input[name="serviseType"]:checked').value();
         var time=$('input[name="time"]:checked').value();
