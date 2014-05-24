@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('#bigButton').click(function () {
         $("#bigButton").css("display", "none");
         $("#step1").css("display", "block");
+        $("information").css("display","none");
     });
 
     $('#sourceButton').click(function () {
@@ -11,10 +12,13 @@ $(document).ready(function(){
         $("#step2").css("display", "block");
     });
 
-    $('#timeButton').click(function () {
-        $("#timeButton").css("display", "none");
-        $("#step2").css("display", "none");
-        $("#step3").css("display", "block");
+    $('#info_button').click(function () {
+        $("#information").css("display", "block");
+
+    });
+    $('#info_close').click(function () {
+        $("#information").css("display", "none");
+
     });
 
     $("#end_button").click(function(){
