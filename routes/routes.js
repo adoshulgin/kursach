@@ -2,6 +2,8 @@
 /*
  * GET home page.
  */
+var spider = require('../lib/spider.js');
+
 module.exports = function (app) {
 
     app.get('/', function (req, res) {
@@ -10,10 +12,14 @@ module.exports = function (app) {
     });
 
     app.post('/config', function (req, res) {
-    var source = req.body.dataSource;
-    var time = req.body.time;
-    var sourceUrl = req.body.url;
-        console.log(source,time, sourceUrl);
+    var sourceUrl = req.body.sourceUrl;
+        console.log(sourceUrl);
+    var urlToItem = sourceUrl.split("/");
+        console.log(urlToItem);
+        spider.GetYMComments(urlToItem[0], urlToItem[2], function (result){
+            console.log(result);
+        });
+
     });
 
 };

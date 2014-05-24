@@ -17,18 +17,13 @@ $(document).ready(function(){
         $("#step3").css("display", "block");
     });
 
-    $("#end_button").click(function(){
-        var dataSource=$('input[name="serviseType"]:checked').value();
-        var time=$('input[name="time"]:checked').value();
+    $("#submitButton").click(function(){
+        var sourceUrl = $('#ulr').val();
         $.ajax({
-
             type: "POST",
             url: "/config",
-            data: { dataSource: dataSource, time: time},
+            data: { sourceUrl: sourceUrl},
             success: function (d) {
-                $("#oops").html('что нибудь');
-
-
             }
         });
     });
