@@ -89,9 +89,9 @@ span {
 
 }
 #note   {
-    border-width:thin ;
-    border-color: black;
-    float: left;
+    float: right;
+    padding-top: 90%;
+
 }
 #choice_button {
     height: 30px;

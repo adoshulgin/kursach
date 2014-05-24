@@ -29,20 +29,30 @@
 
     <div id="step1" class="dialog">
         <p>Введите ссылку* на статью</p>
-        <input name="link" type="text" size="30" maxlength="256" id="ulr"/> <br />
+        <input name="link" type="text" size="70" maxlength="256" id="ulr"/> <br />
+        <div id="note">
+            <p>*На данном этапе, поддерживаются только kinopoisk.ru и market.yandex.ru</p>
+        </div>
         <input name="button" type="button" ID="submitButton" value="Начать" />
 
-        <div id="note">
-            <p>На данном этапе, поддерживаются только kinopoisk.ru и market.yandex.ru</p>
-        </div>
+
     </div>
 
 
 </div>
 
-<input name="button" type="button" ID="info_button" value="О СЕРВИСЕ" onclick="top.location.href='____.html'"/>
+<input name="button" type="button" ID="info_button" value="О СЕРВИСЕ" >
 
 
+<div id="information" class="dialog">
+    <p>Анализ теста - это процесс получения высококачественной информации из текста на естественном языке, что является в настоящее время очень актуальной темой в самых различных отраслях (социология, политология, маркетинг и др). Его целью является нахождение мнений в тексте и определение их свойств. В зависимости от поставленной задачи нас могут интересовать разные свойства, например:
+        1. автор — кому принадлежит это мнение
+        2. тема — о чем говорится во мнении
+        3. тональность — позиция автора относительно упомянутой темы (обычно «положительная» или «отрицательная»)
+        Но как получить данные для анализа и откуда?</p>
+    Для этого и был разработан данный сервис. Здесь вы сможете получить нужные Вам для данные анализа :)
+    <input name="button" type="button" ID="info_close" value="Закрыть"/>
+    </div>
 </BODY>
 
 
